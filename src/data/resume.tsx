@@ -1,4 +1,3 @@
-import UnoWalletProject from "@/app/(projects)/UnoWallet";
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import Image from "next/image";
@@ -133,7 +132,7 @@ export const DATA = {
               <p className="text-gray-600 dark:text-gray-300 text-lg md:text-2xl leading-relaxed font-light pb-5">
                 Integrated AI into the platform using{' '}
                 <span className="font-semibold text-gray-800 dark:text-white">
-                  OpenAI's (GPT-3.5 Turbo)
+                  OpenAI&apos;s (GPT-3.5 Turbo)
                 </span>
                 . Optimized response times with Streams and facilitated real-time updates by utilizing{' '}
                 <span className="font-semibold text-gray-800 dark:text-white">Socket.io</span>{' '}
@@ -215,7 +214,7 @@ export const DATA = {
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs & improved prompts.",
       technologies: [
         "Next.js",
         "Typescript",
